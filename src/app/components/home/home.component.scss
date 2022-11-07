@@ -1,0 +1,54 @@
+.body {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+h4 {
+    color: #6E6893;
+    margin-left: 15px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #C6C2DE;
+    color: #6E6893;
+}
+
+.transaction ul {
+    display: flex;
+    list-style: none;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+
+.transaction li {
+    margin-right: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.transaction li:hover {
+    color: #25213B;
+    border-bottom: 2px solid #25213B;
+}
+
+.inactiveli {
+    color: #6E6893;
+    border-bottom: 2px solid transparent;
+}
+
+.activeli {
+    color: #25213B;
+    border-bottom: 2px solid #25213B;
+}
+
+.transaction span {
+    color: #6D5BD0;
+    font-size: 18px;
+}
